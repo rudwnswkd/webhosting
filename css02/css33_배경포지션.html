@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배경포지션</title>
+    <style>
+        .coffee {
+            width: 1280px;
+            height: 854px;
+            padding: 10px;
+            border: 1px solid red;
+            margin: 0 auto;
+            /* 배경 이미지 반복 설정, no-repeat은 반복하지 않음 */
+            background-repeat: no-repeat;
+            background-image: url('../images/coffee.png');
+            /* 50px: x축 수평으로 왼쪽에서 부터의 거리, 100px: y축 수직으로 위에서 부터의 거리 */
+            /* background-position: 50px 100px; */
+            background-position: right center; /* 배경 이미지 위치 설정, right center: 오른쪽 중앙*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="coffee">
+    </div>
+</body>
+
+</html>
