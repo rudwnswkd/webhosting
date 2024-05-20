@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12 Column CSS Grid Layout</title>
+  <!-- Font Awesome CSS 파일 포함 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- CSS 파일 포함 -->
+  <link rel="stylesheet" href="./styles12.css">
+</head>
+<body>
+  <div class="grid-container">
+    <header class="grid-item col-span-12">
+      <div class="header-title">
+        <i class="fas fa-home"></i>
+        <h2>3단 CSS 그리드 레이아웃</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">메뉴1</a></li>
+          <li><a href="#">메뉴2</a></li>
+          <li><a href="#">메뉴3</a></li>
+          <li><a href="#">메뉴4</a></li>
+          <li><a href="#">메뉴5</a></li>
+          <li><a href="#">메뉴6</a></li>
+          <li><a href="#">메뉴7</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="grid-item col-span-8">
+      <article>
+        <h2>메인 컨텐츠 1</h2>
+        <p>메인 컨텐츠 내용 1</p>
+      </article>
+      <article>
+        <h2>메인 컨텐츠 2</h2>
+        <p>메인 컨텐츠 내용 2</p>
+      </article>
+    </main>
+    <aside class="grid-item col-span-4">
+      <h2>사이드바</h2>
+      <p>사이드바 내용</p>
+    </aside>
+    <footer class="grid-item col-span-12">
+      <h2>푸터</h2>
+      <p>푸터 내용</p>
+    </footer>
+  </div>
+</body>
+</html>
